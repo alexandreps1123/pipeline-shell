@@ -2,3 +2,6 @@ job:
   script:
   - echo "Olá mundo"
   - echo "Teste"
+build:
+  script:
+  - echo "Mais um teste"
