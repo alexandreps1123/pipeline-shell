@@ -1,10 +1,10 @@
-package br.com.parkus.testeunidade;
+package br.com.parkus.pipelineshell;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TesteUnidadeApplicationTests {
+class PipelineShellApplicationTests {
 
 	@Test
 	void testandoCpfValido() {

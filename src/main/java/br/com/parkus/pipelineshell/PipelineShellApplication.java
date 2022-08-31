@@ -1,13 +1,15 @@
-package br.com.parkus.testeunidade;
+package br.com.parkus.pipelineshell;
+
+import java.util.Scanner;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TesteUnidadeApplication {
+public class PipelineShellApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TesteUnidade.class, args);
+		SpringApplication.run(PipelineShellApplication.class, args);
 
 		Scanner teclado = new Scanner(System.in);
 		String cpf = teclado.nextLine();
